@@ -65,3 +65,42 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.container {
+	width: 900px;
+	margin: auto;
+	border: 1px solid red;
+}
+header nav {
+	box-sizing: border-box;
+	display: inline-block;
+	
+}
+header nav a {
+	box-sizing: border-box;
+	margin: 20px;
+	margin-top: 30px;
+
+}
+header .logo {
+	box-sizing: border-box;
+	margin-left: 140px;
+	margin-top: 20px;
+}
+.top-page-header {
+	border: 1px solid green;
+}
+.left-side-heading {
+	box-sizing: border-box;
+	border: 1px solid blue;
+	display: inline-block;
+	width: 400px;
+}
+.right-side-image {
+	box-sizing: border-box;
+	border: 1px solid red;
+}
+.below-nav .main-header {
+	box-sizing: border-box;
+	font-size: 70px;
+	display: inline-block;
+}
