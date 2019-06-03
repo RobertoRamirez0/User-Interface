@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+/* HTML5 display-role reset for older browsers hello*/
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -64,3 +64,57 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 900px;
+	margin: auto;
+	border: 1px solid red;
+}
+header nav {
+	box-sizing: border-box;
+	display: inline-block;
+	
+}
+header nav a {
+	box-sizing: border-box;
+	margin: 20px;
+	margin-top: 30px;
+
+}
+header .logo {
+	box-sizing: border-box;
+	margin-left: 140px;
+	margin-top: 20px;
+}
+.top-page-header {
+	border: 1px solid green;
+}
+.left-side-heading {
+	box-sizing: border-box;
+	border: 1px solid blue;
+	display: inline-block;
+	width: 400px;
+	text-align: center;
+}
+.right-side-image {
+	box-sizing: border-box;
+	border: 1px solid red;
+}
+.below-nav .main-header {
+	box-sizing: border-box;
+	font-size: 70px;
+	display: inline-block;
+}
+.main-header.main-header-two {
+	display: block;
+	text-align: center;
+}
+.main-header.main-header-three {
+	margin-left: -10px;
+	text-align: center;
+}
+button {
+	display: block;
+	margin-left: 150px;
+	margin-top: 50px;
+}
