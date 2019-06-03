@@ -94,6 +94,7 @@ header .logo {
 	border: 1px solid blue;
 	display: inline-block;
 	width: 400px;
+	text-align: center;
 }
 .right-side-image {
 	box-sizing: border-box;
@@ -103,4 +104,17 @@ header .logo {
 	box-sizing: border-box;
 	font-size: 70px;
 	display: inline-block;
+}
+.main-header.main-header-two {
+	display: block;
+	text-align: center;
+}
+.main-header.main-header-three {
+	margin-left: -10px;
+	text-align: center;
+}
+button {
+	display: block;
+	margin-left: 150px;
+	margin-top: 50px;
 }
